@@ -93,7 +93,7 @@ class Ur3(Manipulator):
             self.socket_write.send(command)
             print command
 
-            self.wait_for_move_end(point, is_pose)
+            #self.wait_for_move_end(point, is_pose)
             print "Achieved {0} target points".format(i)
             commands.append(command)
         return commands
