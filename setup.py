@@ -31,6 +31,6 @@ setup(name='robot_controller',
 
       # project setup
       packages=find_packages(),
-      install_requires=['opencv_python>=3.3.0.10', 'numpy>=1.12.0'],
+      install_requires=['opencv_python>=3.3.0.10', 'numpy>=1.12.0', 'scikit-build'],
       py_modules=['robot_controller']
       )
